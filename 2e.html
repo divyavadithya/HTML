@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="@">
+        <label> Firstname</label><br>
+        <input type="text" id="name" name="Firstname" required><br>
+        <label>Lastname</label><br>
+        <input type="text" id="email" name="Lastname"><br>
+        <label>email</label><br>
+        <input type="text" id="email" name="email" readonly><br>
+        <label>phone number</label><br>
+        <input type="text" id="Phonenumber" name="Phonenumber"><br>
+        <label>Gender:</label>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female<br>
+        <label>File:</label>
+        <input type="file" name="File" value="File"><br>
+        <label>Event</label>
+        <label for="Cultural Activities">Cultural Activities:</label>
+  <select name="Cultural Activities" id="Cultural Activities">
+  <option value="Angering">Angering</option>
+  <option value="Singing">Singing</option>
+  <option value="Dancing" selected>Dancing</option>
+  </select><br>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+      <button on click="alert"[alert]>clickme!</button>       
+ </form>
+</body>
+</html>
